@@ -1,0 +1,22 @@
+{
+    "name": "Black Screen PWA",
+    "short_name": "Black Screen PWA",
+    "description": "Just a Black Screen to rest your eyes",
+    "icons": [
+      {
+        "sizes": "192x192",
+        "type": "image/png",
+        "src": "icons-192.png"
+      },
+      {
+        "sizes": "512x512",
+        "type": "image/png",
+        "src": "icons-512.png"
+      }
+    ],
+    "display": "standalone",
+    "background_color": "black",
+    "theme_color": "black",
+    "start_url": "black-screen-pwa/index.html",
+    "scope": "black-screen-pwa/"
+  }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="manifest" href="black-screen-pwa/manifest.json">
+    <title>Black Screen PWA</title>
+    <base href="/" />
+    <meta name="theme-color" content="black">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body onclick="document.getElementById('content').style.display='none';">
+    <div id="content">
+        <h1>
+            Welcome to the Black Screen progressive web app
+        </h1>
+        <p>
+            I used it to focus on my main screen and hide my second screen without cutting the display, but you could
+            use it as you want!
+        </p>
+        <p>
+            Click on the text to hide it!
+        </p>
+    </div>
+    <script>navigator.serviceWorker.register('black-screen-pwa/sw.js')</script>
+</body>
+
+</html>
