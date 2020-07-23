@@ -5,7 +5,9 @@ self.addEventListener('install', e => {
           return cache.addAll([
             'index.html',
             'icons-512.png',
-            'icons-192.png'
+            'icons-192.png',
+            'favicon.ico',
+            'manifest.json'
           ])
         })
     );
